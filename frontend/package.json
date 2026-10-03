@@ -1,0 +1,33 @@
+{
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "test:browser": "playwright test"
+  },
+  "dependencies": {
+    "next": "15.5.27",
+    "react": "19.1.5",
+    "react-dom": "19.1.5"
+  },
+  "devDependencies": {
+    "typescript": "~5.9.3",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@playwright/test": "^1.55.1"
+  },
+  "private": true,
+  "engines": {
+    "node": "22.x"
+  },
+  "name": "singh-academy-frontend",
+  "version": "60.6.1",
+  "overrides": {
+    "sharp": "0.35.4",
+    "next": {
+      "postcss": "8.5.23"
+    }
+  }
+}
